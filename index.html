@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/frame.svg" alt="logo da alura">
+    </header>
+    
+    <main>
+        <div class="secao__inicial">
+            <div class="secao">
+                <input class="secao__entrada" id="texto-original" type="text" placeholder="Digite seu texto">
+                <div class="alerta">
+                    <img src="./assets/exclamacao.png" width="16px" height="16px" alt="sinal de exclamacao">
+                    <p class="padrao__texto">Apenas letras minúsculas e sem acento</p>
+                </div>
+                <div class="secao__esquerda">     
+                    <button id="criptografar" class="secao__botoes__navegacao">Criptografar</button>
+                    <button id="descriptografar" class="secao__botoes__navegacao">Descriptografar</button>
+                </div>
+            </div>    
+            <div class="secao__direita">
+                <img id="imagem-mensagem" class="imagem__contexto" src="./assets/object.svg" alt="imagem de mensagem">
+                <textarea id="resultado"></textarea>
+                <button id="btn_copiar" class="secao__botoes__copiar">Copiar</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="rodape">
+        <p>Desenvolvido por David Lucas Lima Barroso</p>
+    </footer>
+
+    <script src="app2.js" defer></script>
+</body>
+</html>
