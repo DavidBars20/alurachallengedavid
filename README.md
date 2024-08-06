@@ -21,7 +21,7 @@ Este projeto é uma aplicação web simples para criptografar e descriptografar 
 2. **Funcionalidades de Criptografia e Descriptografia**:
    - A função de criptografia e descriptografia foi implementada para transformar o texto de acordo com um conjunto de regras de substituição.
    - O desafio foi garantir que essas funções fossem chamadas corretamente e que o texto fosse exibido ou ocultado conforme necessário.
-   - 
+     
 ## Soluções Implementadas
    - As funções utilizadas não continham referência no css, foi uma dificuldade para associá-las e identificá-las no css, foi necessário pesquisar a respeito disso e
      identificar diretamente no javascript e expor o valor obtido do resultado.
