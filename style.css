@@ -6,37 +6,30 @@
     --cor-terciaria: #F3F5FC;
     --cor-hover: #343A40;
     --cor-saida: #343A40;
-
     --fonte-primaria: "Inter", sans-serif;
 }
-
 * {
     padding: 0;
     margin: 0;
     border: 0;
 }
-
 body {
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
 }
-
 .secao__inicial {
     display: flex;
     justify-content: center;
     padding: 2.5% 2% 0% 2%;
 }
-
 .secao {
     display: flex;
     flex-wrap: wrap;
     width: auto;
 }
-
 .cabecalho {
     padding: 2.5% 2% 0% 2%;
 }
-
 .alerta {
     margin-top: auto;
     display: flex;
@@ -45,7 +38,6 @@ body {
     padding-left: 22%;
     height: 30px;
 }
-
 .secao__entrada {
     display: flex;
     border: 0 none;
@@ -60,19 +52,16 @@ body {
     padding-bottom: 30%;
     background-color: #ffffff00;
 }
-
 .padrao__texto {
     font-family: var(--fonte-primaria);
     color: var(--cor-primaria);
     font-weight: 400;
     font-size: 0.75rem;
 }
-
 .secao__botoes__navegacao:active, .secao__botoes__copiar:active {
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
 }
-
 .secao__botoes__navegacao, .secao__botoes__copiar {
     display: flex;
     justify-content: center;
@@ -89,17 +78,14 @@ body {
     height: 67px;
     gap: 24px;
 }
-
 *[id=criptografar] {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-
 .secao__botoes__copiar {
     margin-top: 63%;
     display: none; /* Inicialmente invisível */
 }
-
 .secao__saida {
     color: var(--cor-saida);
     font-family: var(--fonte-primaria);
@@ -107,13 +93,11 @@ body {
     font-weight: 700;
     outline: none;
 }
-
 .secao__saida1 {
     color: var(--cor-saida);
     font-family: var(--fonte-primaria);
     font-size: 1rem;
 }
-
 .secao__esquerda {
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +107,6 @@ body {
     gap: 24px;
     row-gap: 24px;
 }
-
 .secao__direita {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +122,6 @@ body {
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     position: relative;
 }
-
 #resultado {
     width: 339px;
     height: 401px;
@@ -151,7 +133,6 @@ body {
     display: none; /* Inicialmente invisível */
     align-items: center;
 }
-
 .imagem__contexto {
     display: block; /* Inicialmente visível */
     position: absolute;
@@ -159,11 +140,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 #resultado:not(:empty) + .imagem__contexto {
     display: none; /* Oculta a imagem quando o resultado não está vazio */
 }
-
 .rodape {
     display: flex;
     flex-wrap: wrap;
