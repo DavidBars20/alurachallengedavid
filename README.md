@@ -21,15 +21,12 @@ Este projeto é uma aplicação web simples para criptografar e descriptografar 
 2. **Funcionalidades de Criptografia e Descriptografia**:
    - A função de criptografia e descriptografia foi implementada para transformar o texto de acordo com um conjunto de regras de substituição.
    - O desafio foi garantir que essas funções fossem chamadas corretamente e que o texto fosse exibido ou ocultado conforme necessário.
-
-3. **Exibição Condicional**:
-   - Foi feito o ajuste para exibir uma mensagem de erro caso o usuário tentasse criptografar ou descriptografar sem inserir texto.
-   - A lógica foi ajustada para garantir que a imagem inicial fosse exibida até que um texto válido fosse inserido.
-
+   - 
 ## Soluções Implementadas
-
+   - As funções utilizadas não continham referência no css, foi uma dificuldade para associá-las e identificá-las no css, foi necessário pesquisar a respeito disso e
+     identificar diretamente no javascript e expor o valor obtido do resultado.
+     
 ### HTML
-
 - O HTML foi estruturado com classes e IDs que correspondem ao CSS.
 - Foi adicionado um campo de entrada de texto, botões para criptografar e descriptografar, e um campo de resultado com um botão de copiar.
 - A imagem e o texto de mensagem foram configurados para exibir e ocultar conforme a necessidade.
